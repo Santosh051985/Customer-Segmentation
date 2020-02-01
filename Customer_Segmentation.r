@@ -80,9 +80,10 @@ plot(k.values, iss_values,
      xlab="Number of clusters K",
      ylab="Total intra-clusters sum of squares")
 library(cluster) 
-install.packages(gridExtra)
+# install.packages(gridExtra)
+# grid Extra packages are available on R  3.6.2 Version
 library(gridExtra)
-install.packages(grid)
+#install.packages(grid)
 library(grid)
 k2<-kmeans(customer_data[,3:5],2,iter.max=100,nstart=50,algorithm="Lloyd")
 s2<-plot(silhouette(k2$cluster,dist(customer_data[,3:5],"euclidean")))

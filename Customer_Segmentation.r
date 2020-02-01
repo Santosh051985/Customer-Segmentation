@@ -1,3 +1,6 @@
+# Customer Segmentation is comes under category  of unsupervised learning problems.
+# To KNN Algorithm to solve the problem
+
 customer_data=read.csv("C:/Users/HP/Desktop/Mall_Customers.csv")
 str(customer_data)
 names(customer_data)

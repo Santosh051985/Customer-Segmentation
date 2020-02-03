@@ -15,7 +15,7 @@ summary(customer_data$Age)
 sd(customer_data$Spending.Score..1.100.)
 
 
-# Customer Gender Visualization
+# Customer Gender Visualization on Box plot
 a=table(customer_data$Gender)
 barplot(a,main="Using BarPlot to display Gender Comparision",
         ylab="Count",

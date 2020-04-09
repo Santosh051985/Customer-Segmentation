@@ -149,3 +149,4 @@ digCluster<-k6$cluster; dignm<-as.character(digCluster); # K-means clusters
 plot(pcclust$x[,1:2], col =kCols(digCluster),pch =19,xlab ="K-means",ylab="classes")
 legend("bottomleft",unique(dignm),fill=unique(kCols(digCluster)))
 
+###

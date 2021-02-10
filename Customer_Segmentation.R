@@ -1,5 +1,3 @@
-
-# To KNN Algorithm to solve the problem
 # To Read Mall Customer Data with the help of read.csv
 customer_data=read.csv("C:/Users/HP/Desktop/Mall_Customers.csv")
 str(customer_data)

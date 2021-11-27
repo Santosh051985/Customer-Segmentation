@@ -7,7 +7,7 @@ head(customer_data)
 summary(customer_data$Age)
 # Examplre
 sd(customer_data$Age)
-summary(customer_data$Annual.Income..k..)
+summary(customer_data$Annual.Income..k..) # Result of Dataset
 sd(customer_data$Annual.Income..k..)
 summary(customer_data$Age)
 sd(customer_data$Spending.Score..1.100.)

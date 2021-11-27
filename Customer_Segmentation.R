@@ -5,7 +5,7 @@ names(customer_data)
 
 head(customer_data)
 summary(customer_data$Age)
-
+# Examplre
 sd(customer_data$Age)
 summary(customer_data$Annual.Income..k..)
 sd(customer_data$Annual.Income..k..)
